@@ -2,7 +2,10 @@
 
 
 body{
-    background-color: rgb(0, 140, 203)
+    background-color: rgb(0, 140, 203);
+    max-width: 1734px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 
@@ -15,6 +18,68 @@ text , .content {
 
 main {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 50px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.form-area {
+    background-color: rgb(0, 103, 151);
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 900px;
+}
+
+.form-header{
+    display: flex;
+  justify-content: center;
+}
+
+form {
+    display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  height: 567px;
+}
+
+input{
+    margin-top: 55px;
+  height: 60px;
+  padding: 13px;
+  border-radius: 9px;
+  border: none;
+  font-size: 30px;
+  width: 500px;
+  font-weight: 900;
+}
+
+#submit-button {
+    border-radius: 15px;
+    width: 434px;
+    height: 86px;
+    font-weight: 900;
+    font-size: 30px;
+    padding-right: 10p;
+    background-color: orange;
+    color: white;
+}
+
+.logos{
+    width: 347px;
+}
+
+hr {
+    width: 100%;
+}
+
+header{
+   width:1725px;
+
 }
